@@ -10,7 +10,7 @@ hooks:
       runas: root 
     
   AfterInstall:
-    - location: install_nginx.sh
+    - location: install_httpd.sh
       timeout: 300
       runas: root
       
